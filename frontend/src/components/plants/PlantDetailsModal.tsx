@@ -19,7 +19,7 @@ interface PlantDetailsModalProps {
   onUpdate?: (updatedPlant: any) => Promise<void>;
   onDelete?: (plantId: number) => Promise<void>;
   onAddMeasurement?: (data: any) => Promise<void>;
-  onUpdateMeasurement?: (measurement: any) => Promise<void>;
+  onUpdateMeasurement?: (measurement: any) => void;
   onDeleteMeasurement?: (measurementId: number) => void;
   onAddDisease?: (data: any) => Promise<void>;
   onUpdateDisease?: (disease: any) => void;
